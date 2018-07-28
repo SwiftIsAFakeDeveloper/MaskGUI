@@ -138,10 +138,10 @@ class Main extends PluginBase implements Listener {
 					$dragon = $this->getConfig()->get("money.dragon");
 					$creeper = $this->getConfig()->get("money.creeper");
 					
-					$form->setTitle("§bMask Shop");
+					$form->setTitle("§8§l(§4§l!§8§l) §4§lMASKS §8§l(§4§l!§8§l");
 					$form->setContent("§fYou have §6{$money} §fMoney.");
 					
-					$form->addButton("§eHeads List");
+					$form->addButton("§4Heads List");
 				    $form->addButton("§8Zombie = §6$".$zombie, 1, "http://i.piccy.info/i9/02004901adf40dfb882978b8599fc678/1509381626/2951/1192083/zombie.png");
 					$form->addButton("§8Wither Skeleton = §6$".$issuchitel, 1, "http://i.piccy.info/i9/4a2098870dd5afe9036014ea5a55ad22/1509381594/2386/1192083/issychitel.png");
 					$form->addButton("§8Dragon = §6$".$dragon, 1, "http://i.piccy.info/i9/95cb7e55dc8a66b9db5e8d23e9d32a73/1509381549/2657/1192083/dragon.png");
