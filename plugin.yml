@@ -1,0 +1,11 @@
+name: EasyMask
+main: MASKshop\Main
+api: [3.1.1]
+version: 1.0
+author: PLUGPLUS
+Translate: Russian to English by xXNiceYT
+
+commands:
+ mask:
+  aliases: ["maskshop"]
+  description: "Mask Shop Command"
